@@ -1,6 +1,6 @@
 <template>
   <div class="content g2-content">
-    <object :data="url" type="application/pdf" name="file.pdf">
+    <object :data="url" type="application/pdf" name="file.pdf" height: 1200px;>
       <embed :src="url" type="application/pdf" />
     </object>
   </div>
